@@ -1,0 +1,89 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #FAFAFA;
+}
+
+.table.table-striped {
+	margin-top:30px;
+}
+
+.table.table-striped th {
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.table.table-striped td:last-child, .table.table-striped th:last-child {
+	text-align: right;
+}
+
+.table.table-striped td:last-child .btn {
+	width: 32px;
+	padding: 6px 0px;
+	margin-right: 2px
+}
+
+.mainContainer {
+	padding-top: 50px;
+	min-height: 170%;
+	min-height: -webkit-calc(100% + 1186px);
+	min-height: -moz-calc(100% + 1186px);
+	min-height: calc(100% + 1186px);
+}
+
+.navbar-default {
+	background-color: #ffffff;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background-color: #53BBF4;
+	color:#FFFFFF;
+}
+
+.panel-primary > .panel-heading {
+	background-color: #53BBF4;
+	border-color: #53BBF4;
+
+}
+
+.panel-primary {
+	border-color: #53BBF4;
+	margin-bottom:30px;
+}
+
+.panel-primary .panel-body{
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+
+.btn-danger {
+	border: none;
+	background-color: #CC2020;
+}
+
+.btn-danger:hover {
+	border: none;
+	background-color: #B61616;
+}
+
+.btn-success {
+	border: none;
+	background-color: #70E000;
+}
+
+.btn-success:hover {
+	border: none;
+	background-color: #7CF220;
+}
+
+footer {
+	left: 0;
+	right: 0
+}
+
+footer .container div {
+	border-top: 1px solid #cccccc;
+	padding: 15px 0px;
+	text-align: right;
+}
